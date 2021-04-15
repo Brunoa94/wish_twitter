@@ -9,7 +9,9 @@ import { IoMdNotificationsOutline } from 'react-icons/io'
 import { BsBookmark } from 'react-icons/bs'
 import { RiFileListLine } from 'react-icons/ri'
 import { CgMoreO } from 'react-icons/cg'
+import { FaTwitter } from 'react-icons/fa'
 import { setActiveNavbar } from './navbarSlice'
+import CircularIcon from './CircularIcon'
 
 const navbar__icons = [
     [
@@ -43,9 +45,7 @@ function LeftNavbar() {
     return (
         <div className="left__navbar">
             <div className="left__header">
-                <div className="twitter__logo">
-                    <img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"></img>
-                </div>
+                <CircularIcon Icon={FaTwitter}></CircularIcon>
                 <div className="navbar__icons">
                     {
                         navbar__icons.map(

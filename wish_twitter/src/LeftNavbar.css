@@ -11,26 +11,6 @@
     padding-top: 10px;
 }
 
-.twitter__logo{
-    padding:10px;
-    height:30px;
-    width:30px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:50%;
-    cursor:pointer;
-}
-
-.twitter__logo:hover{
-    background-color: rgba(102, 206, 238, 0.2);
-}
-
-
-.twitter__logo img{
-    height:50px;
-}
-
 .tweet__button{
     margin-top:20px;
     width: 75%;

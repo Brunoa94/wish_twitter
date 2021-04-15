@@ -1,0 +1,20 @@
+.circular__icon{
+    padding:10px;
+    height:30px;
+    width:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.circular__icon:hover{
+    background-color: rgba(102, 206, 238, 0.2);
+}
+
+
+.img__icon{
+    font-size:50px;
+    color: rgb(29, 161, 242);
+}
