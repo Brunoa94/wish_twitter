@@ -57,7 +57,7 @@ function LeftNavbar() {
                     <span>Tweet</span>
                 </div>
                 <div className="user__button">
-                    <img src="https://s3.observador.pt/wp-content/uploads/2020/01/15131417/27953969-scaled.jpg"></img>
+                    <img src="https://i.ibb.co/1bzYF2H/Captura-de-ecra-2021-04-04-a-s-12-16-20.png"></img>
                     <div className="name__nickname">
                         <span className="name">Bruno Afonso</span>
                         <span className="nickname">@Bruno012312312</span>
