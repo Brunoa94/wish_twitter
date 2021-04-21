@@ -8,7 +8,7 @@
 .post__box__header{
     display:flex;
     align-items: center;
-    height: 80px;
+    height: 70px;
 }
 
 .profile__informations{
@@ -161,6 +161,5 @@
 
 .post__img__box{
     padding-left:60px;
-    margin-top: 10px;
 }
 

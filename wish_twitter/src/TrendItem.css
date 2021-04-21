@@ -1,0 +1,39 @@
+.trend__item{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(121, 141, 158, 0.3);
+}
+
+.trend__item__header{
+    display:flex;
+    align-items: center;
+}
+
+.trend__item__header .trend__ellipsis{
+    margin-left: auto;
+    color: rgb(101, 119, 134);
+}
+
+.trend__item__header span{
+    color: rgb(101, 119, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.trend__item .trend__title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trend__item .tweets__number{
+    color: rgb(101, 119, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
