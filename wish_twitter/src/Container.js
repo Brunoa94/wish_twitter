@@ -8,6 +8,9 @@ import {IoImageOutline} from 'react-icons/io5'
 import { RiFileGifLine, RiBarChartHorizontalFill } from 'react-icons/ri'
 import { FiSmile } from 'react-icons/fi'
 import { VscCalendar } from 'react-icons/vsc'
+import PostBox from './PostBox'
+
+const image = "https://www.f1mania.net/wp-content/uploads/2021/03/0001076624_HiRes_02VXMV50A6XRB50LSX9FK0HCNHC1.jpg"
 
 function Container() {
     const icons = [IoImageOutline, RiFileGifLine, RiBarChartHorizontalFill, FiSmile, VscCalendar]
@@ -34,6 +37,10 @@ function Container() {
                         <span>Tweet</span>
                     </div>
                 </div>
+            </div>
+            <div className="tweets__container">
+                <PostBox name={"McLaren"} username={"@McLarenF1"} time={"2h"} comment={"Leave your messages of support for Daniel and Lando before the race!"} src_img={image}></PostBox>
+                <PostBox name={"McLaren"} username={"@McLarenF1"} time={"2h"} comment={"Leave your messages of support for Daniel and Lando before the race!"}></PostBox>
             </div>
         </div>
     )

@@ -1,0 +1,166 @@
+.post__box{
+    border-top: 1px solid rgb(146, 145, 145, 0.25); 
+    padding-left:20px;
+    padding-right:20px;
+    background-color: white;
+}
+
+.post__box__header{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+
+.profile__informations{
+    margin-left: 15px;
+    height: 50px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top__informations{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.verified__icon{
+    color: rgb(29, 161, 242);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.profile__informations span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile__informations .username{
+    color: rgb(160, 159, 159);
+}
+
+.profile__informations .point{
+    color: rgb(160, 159, 159);
+}
+
+.profile__informations .time{
+    color: rgb(160, 159, 159);
+}
+
+.profile__informations .comment{
+    font-size: 15px;
+}
+
+.profile__informations .bottom__informations{
+    margin-top: 5px;
+}
+
+.profile__informations .ellipsis{
+    margin-left: auto;
+}
+
+.ellipsis .ellipsis__icon{
+    color: rgb(160, 159, 159);
+}
+
+.interactions{
+    display:flex;
+    align-items: center;
+    padding-left: 55px;
+}
+
+.interaction__item .icon{
+    display:flex;
+    align-items: center;
+}
+
+.interaction__item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 13%;
+}
+
+.interaction__item span{
+    font-size: 12px;
+}
+
+.interaction__item .icon{
+    display:flex;
+    align-items:center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.interaction__item .interactions__number{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(173, 173, 173);
+}
+
+.interaction__item .interaction__icon{
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+}
+
+.interaction__item:hover .comment__icon{
+    background-color: rgb(29, 161, 242, 0.1);
+}
+
+.interaction__item:hover .comment__number{
+    color: rgb(29, 161, 242);
+}
+
+.interaction__item:hover .comment__icon .interaction__icon{
+    color: rgb(29, 161, 242);
+}
+
+.interaction__item:hover .sync__icon{
+    background-color: rgba(24, 221, 73, 0.1);
+}
+
+.interaction__item:hover .sync__number{
+    color: rgb(24, 221, 73);
+}
+
+.interaction__item:hover .sync__icon .interaction__icon{
+    color: rgb(24, 221, 73);
+}
+
+.interaction__item:hover .heart__icon{
+    background-color: rgba(221, 37, 24, 0.1);
+}
+
+.interaction__item:hover .heart__number{
+    color: rgb(221, 37, 24);
+}
+
+.interaction__item:hover .heart__icon .interaction__icon{
+    color: rgb(221, 37, 24);
+}
+
+.interaction__item:hover .upload__icon{
+    background-color: rgb(29, 161, 242, 0.1);
+}
+
+.interaction__item:hover .upload__number{
+    color: rgb(29, 161, 242);
+}
+
+.interaction__item:hover .upload__icon .interaction__icon{
+    color: rgb(29, 161, 242);
+}
+
+.post__box .post__img{
+    max-height: 300px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.post__img__box{
+    padding-left:60px;
+    margin-top: 10px;
+}
+
